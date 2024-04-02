@@ -25,7 +25,7 @@ _integration_tests = []
 _integration_tests_tokio_ext = []
 
 [dependencies]
-ssh2 = { version = "0.9.4", default-features = false }
+ssh2 = { git = "https://github.com/Takashiidobe/ssh2-rs", default-features = false }
 libssh2-sys = { version = "0.3", default-features = false }
 futures-util = { version = "0.3", default-features = false, features = [
     "io",
